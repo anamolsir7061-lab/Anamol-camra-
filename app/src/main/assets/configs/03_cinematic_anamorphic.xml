@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gcam-config version="8.5">
+    <meta>
+        <id>cinematic_anamorphic</id>
+        <name>Cinematic 8.5</name>
+        <icon>🎬</icon>
+        <author>Anamol Studio</author>
+        <deviceProfile>Cinema Tone Curve</deviceProfile>
+        <description>Deep shadows, teal-slate AWB bias, subtle vignette, and 24fps-inspired rolloff.</description>
+    </meta>
+    <hdrplus>
+        <hdrPlusStrength>0.85</hdrPlusStrength>
+        <toneMappingGamma>1.10</toneMappingGamma>
+        <exposureCompensation>-0.15</exposureCompensation>
+        <shadows>-0.14</shadows>
+        <highlights>-0.25</highlights>
+        <blackLevel>0.02</blackLevel>
+        <nightSightStrength>0.40</nightSightStrength>
+    </hdrplus>
+    <color>
+        <contrast>1.20</contrast>
+        <saturation>0.94</saturation>
+        <vibrance>0.10</vibrance>
+        <skinToneWarmth>0.10</skinToneWarmth>
+    </color>
+    <awb>
+        <awbBias>COOL_SHADE</awbBias>
+        <temperatureOffset>-0.08</temperatureOffset>
+        <tintOffset>-0.04</tintOffset>
+        <rgbGainR>1.02</rgbGainR>
+        <rgbGainG>0.98</rgbGainG>
+        <rgbGainB>1.08</rgbGainB>
+    </awb>
+    <detail>
+        <sharpness>0.40</sharpness>
+        <lumaNoiseReduction>0.25</lumaNoiseReduction>
+        <chromaNoiseReduction>0.30</chromaNoiseReduction>
+    </detail>
+    <lens>
+        <portraitBlurStrength>0.55</portraitBlurStrength>
+        <vignette>0.28</vignette>
+        <grain>0.10</grain>
+    </lens>
+</gcam-config>

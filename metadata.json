@@ -1,0 +1,6 @@
+{
+  "name": "Anamol Camera",
+  "description": "Anamol Camera — mobile-first DSLR Max, GCam 8.5 XML config engine, Snapchat-style XML filter packs, AR face lenses, local light adaptation, and silent Gemini camera brain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

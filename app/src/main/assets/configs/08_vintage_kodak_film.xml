@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gcam-config version="8.5">
+    <meta>
+        <id>vintage_kodak_film</id>
+        <name>Vintage Film</name>
+        <icon>🎞️</icon>
+        <author>Anamol Studio</author>
+        <deviceProfile>35mm Portra 400</deviceProfile>
+        <description>Organic film fade, lifted black level, amber highlights, and fine silver-halide grain.</description>
+    </meta>
+    <hdrplus>
+        <hdrPlusStrength>0.55</hdrPlusStrength>
+        <toneMappingGamma>1.05</toneMappingGamma>
+        <exposureCompensation>0.05</exposureCompensation>
+        <shadows>0.16</shadows>
+        <highlights>-0.14</highlights>
+        <blackLevel>0.08</blackLevel>
+        <nightSightStrength>0.20</nightSightStrength>
+    </hdrplus>
+    <color>
+        <contrast>0.96</contrast>
+        <saturation>0.92</saturation>
+        <vibrance>0.05</vibrance>
+        <skinToneWarmth>0.18</skinToneWarmth>
+    </color>
+    <awb>
+        <awbBias>WARM_TUNGSTEN</awbBias>
+        <temperatureOffset>0.22</temperatureOffset>
+        <tintOffset>0.04</tintOffset>
+        <rgbGainR>1.07</rgbGainR>
+        <rgbGainG>1.01</rgbGainG>
+        <rgbGainB>0.90</rgbGainB>
+    </awb>
+    <detail>
+        <sharpness>0.22</sharpness>
+        <lumaNoiseReduction>0.15</lumaNoiseReduction>
+        <chromaNoiseReduction>0.25</chromaNoiseReduction>
+    </detail>
+    <lens>
+        <portraitBlurStrength>0.35</portraitBlurStrength>
+        <vignette>0.30</vignette>
+        <grain>0.34</grain>
+    </lens>
+</gcam-config>

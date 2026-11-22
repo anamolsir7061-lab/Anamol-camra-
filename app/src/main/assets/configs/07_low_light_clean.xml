@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gcam-config version="8.5">
+    <meta>
+        <id>low_light_clean</id>
+        <name>Low-Light Clean</name>
+        <icon>🕯️</icon>
+        <author>Anamol Studio</author>
+        <deviceProfile>Indoor Denoise</deviceProfile>
+        <description>Ultra-clean indoor low-light tuning preserving true shadow atmosphere with zero color blotch.</description>
+    </meta>
+    <hdrplus>
+        <hdrPlusStrength>1.15</hdrPlusStrength>
+        <toneMappingGamma>0.92</toneMappingGamma>
+        <exposureCompensation>0.25</exposureCompensation>
+        <shadows>0.32</shadows>
+        <highlights>-0.18</highlights>
+        <blackLevel>-0.01</blackLevel>
+        <nightSightStrength>0.95</nightSightStrength>
+    </hdrplus>
+    <color>
+        <contrast>1.06</contrast>
+        <saturation>0.98</saturation>
+        <vibrance>0.10</vibrance>
+        <skinToneWarmth>0.08</skinToneWarmth>
+    </color>
+    <awb>
+        <awbBias>NATURAL</awbBias>
+        <temperatureOffset>-0.03</temperatureOffset>
+        <tintOffset>0.00</tintOffset>
+        <rgbGainR>1.00</rgbGainR>
+        <rgbGainG>1.00</rgbGainG>
+        <rgbGainB>1.02</rgbGainB>
+    </awb>
+    <detail>
+        <sharpness>0.28</sharpness>
+        <lumaNoiseReduction>0.90</lumaNoiseReduction>
+        <chromaNoiseReduction>0.95</chromaNoiseReduction>
+    </detail>
+    <lens>
+        <portraitBlurStrength>0.30</portraitBlurStrength>
+        <vignette>0.12</vignette>
+        <grain>0.00</grain>
+    </lens>
+</gcam-config>

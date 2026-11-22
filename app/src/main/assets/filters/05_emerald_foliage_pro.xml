@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>emerald_foliage_pro</id>
+        <name>Emerald Foliage</name>
+        <icon>🌿</icon>
+        <category>NATURE</category>
+        <author>LensMind Studio</author>
+        <description>Rich botanical greenery boost and crisp landscape dynamic range.</description>
+    </meta>
+    <adjustments>
+        <brightness>0.03</brightness>
+        <contrast>1.16</contrast>
+        <saturation>1.22</saturation>
+        <hue>4.0</hue>
+        <temperature>0.04</temperature>
+        <greenery>0.68</greenery>
+        <blur>0.0</blur>
+        <grain>0.0</grain>
+        <vignette>0.16</vignette>
+        <skinSmooth>0.0</skinSmooth>
+        <highlights>-0.14</highlights>
+        <shadows>0.18</shadows>
+        <glitch>0.0</glitch>
+        <blendMode>NORMAL</blendMode>
+        <lutPreset>FUJI_PRO</lutPreset>
+    </adjustments>
+    <ar-overlay type="NONE" anchor="FULL_FACE" scale="1.0" offsetY="0.0" tint="#10B981" animation="NONE" />
+</lensmind-filter>

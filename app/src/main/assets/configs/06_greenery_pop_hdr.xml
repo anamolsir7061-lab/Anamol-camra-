@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gcam-config version="8.5">
+    <meta>
+        <id>greenery_pop_hdr</id>
+        <name>Greenery Pop</name>
+        <icon>🌿</icon>
+        <author>Anamol Studio</author>
+        <deviceProfile>Landscape &amp; Nature</deviceProfile>
+        <description>Lush emerald green RGB gain boost, deep sky dynamic range, and crisp foliage detail.</description>
+    </meta>
+    <hdrplus>
+        <hdrPlusStrength>1.05</hdrPlusStrength>
+        <toneMappingGamma>0.98</toneMappingGamma>
+        <exposureCompensation>0.00</exposureCompensation>
+        <shadows>0.24</shadows>
+        <highlights>-0.28</highlights>
+        <blackLevel>-0.02</blackLevel>
+        <nightSightStrength>0.25</nightSightStrength>
+    </hdrplus>
+    <color>
+        <contrast>1.12</contrast>
+        <saturation>1.18</saturation>
+        <vibrance>0.36</vibrance>
+        <skinToneWarmth>0.00</skinToneWarmth>
+    </color>
+    <awb>
+        <awbBias>DAYLIGHT</awbBias>
+        <temperatureOffset>0.03</temperatureOffset>
+        <tintOffset>-0.06</tintOffset>
+        <rgbGainR>0.97</rgbGainR>
+        <rgbGainG>1.16</rgbGainG>
+        <rgbGainB>1.02</rgbGainB>
+    </awb>
+    <detail>
+        <sharpness>0.68</sharpness>
+        <lumaNoiseReduction>0.25</lumaNoiseReduction>
+        <chromaNoiseReduction>0.35</chromaNoiseReduction>
+    </detail>
+    <lens>
+        <portraitBlurStrength>0.15</portraitBlurStrength>
+        <vignette>0.10</vignette>
+        <grain>0.00</grain>
+    </lens>
+</gcam-config>

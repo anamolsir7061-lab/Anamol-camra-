@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>cyber_neon_tokyo</id>
+        <name>Neon Tokyo</name>
+        <icon>⚡</icon>
+        <category>NEON</category>
+        <author>LensMind Studio</author>
+        <description>Electric cyan and neon magenta night grade built for city lights.</description>
+    </meta>
+    <adjustments>
+        <brightness>0.02</brightness>
+        <contrast>1.30</contrast>
+        <saturation>1.48</saturation>
+        <hue>-18.0</hue>
+        <temperature>-0.34</temperature>
+        <greenery>0.10</greenery>
+        <blur>0.06</blur>
+        <grain>0.12</grain>
+        <vignette>0.40</vignette>
+        <skinSmooth>0.20</skinSmooth>
+        <highlights>0.15</highlights>
+        <shadows>0.18</shadows>
+        <glitch>0.08</glitch>
+        <duotonePrimary>#0D1B4C</duotonePrimary>
+        <duotoneSecondary>#00E5FF</duotoneSecondary>
+        <blendMode>SCREEN</blendMode>
+        <lutPreset>CYBER_MAGENTA</lutPreset>
+    </adjustments>
+    <ar-overlay type="NONE" anchor="FULL_FACE" scale="1.0" offsetY="0.0" tint="#00E5FF" animation="PULSE" />
+</lensmind-filter>

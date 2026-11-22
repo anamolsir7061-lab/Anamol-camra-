@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>neko_ears_pastel</id>
+        <name>Neko Pastel</name>
+        <icon>🐱</icon>
+        <category>AR_LENS</category>
+        <author>LensMind Studio</author>
+        <description>Playful neon cat ears and soft pastel glow tracked to head tilt.</description>
+    </meta>
+    <adjustments>
+        <brightness>0.08</brightness>
+        <contrast>1.04</contrast>
+        <saturation>1.14</saturation>
+        <hue>6.0</hue>
+        <temperature>0.10</temperature>
+        <greenery>0.04</greenery>
+        <blur>0.10</blur>
+        <grain>0.0</grain>
+        <vignette>0.18</vignette>
+        <skinSmooth>0.60</skinSmooth>
+        <highlights>0.08</highlights>
+        <shadows>0.18</shadows>
+        <glitch>0.0</glitch>
+        <blendMode>SOFT_LIGHT</blendMode>
+        <lutPreset>NONE</lutPreset>
+    </adjustments>
+    <ar-overlay type="CAT_EARS" anchor="FOREHEAD" scale="1.15" offsetY="-0.12" tint="#F472B6" animation="FLOAT" />
+</lensmind-filter>

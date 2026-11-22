@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>kodak_gold_vintage</id>
+        <name>Gold 200 Film</name>
+        <icon>🎞️</icon>
+        <category>VINTAGE</category>
+        <author>LensMind Studio</author>
+        <description>Warm nostalgic 35mm film stock with golden highlights and organic grain.</description>
+    </meta>
+    <adjustments>
+        <brightness>0.04</brightness>
+        <contrast>1.12</contrast>
+        <saturation>1.10</saturation>
+        <hue>5.0</hue>
+        <temperature>0.38</temperature>
+        <greenery>0.05</greenery>
+        <blur>0.04</blur>
+        <grain>0.42</grain>
+        <vignette>0.32</vignette>
+        <skinSmooth>0.10</skinSmooth>
+        <highlights>-0.12</highlights>
+        <shadows>0.22</shadows>
+        <glitch>0.0</glitch>
+        <blendMode>SOFT_LIGHT</blendMode>
+        <lutPreset>KODAK_WARM</lutPreset>
+    </adjustments>
+    <ar-overlay type="NONE" anchor="FULL_FACE" scale="1.0" offsetY="0.0" tint="#F59E0B" animation="NONE" />
+</lensmind-filter>

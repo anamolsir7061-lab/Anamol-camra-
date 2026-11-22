@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>golden_hour_duo</id>
+        <name>Solar Duotone</name>
+        <icon>🌅</icon>
+        <category>DUOTONE</category>
+        <author>LensMind Studio</author>
+        <description>Violet indigo shadows mapped against radiant sunset amber highlights.</description>
+    </meta>
+    <adjustments>
+        <brightness>0.05</brightness>
+        <contrast>1.22</contrast>
+        <saturation>1.15</saturation>
+        <hue>8.0</hue>
+        <temperature>0.46</temperature>
+        <greenery>0.0</greenery>
+        <blur>0.06</blur>
+        <grain>0.16</grain>
+        <vignette>0.28</vignette>
+        <skinSmooth>0.20</skinSmooth>
+        <highlights>0.10</highlights>
+        <shadows>0.14</shadows>
+        <glitch>0.0</glitch>
+        <duotonePrimary>#2E1065</duotonePrimary>
+        <duotoneSecondary>#FB923C</duotoneSecondary>
+        <blendMode>OVERLAY</blendMode>
+        <lutPreset>KODAK_WARM</lutPreset>
+    </adjustments>
+    <ar-overlay type="NONE" anchor="FULL_FACE" scale="1.0" offsetY="0.0" tint="#FB923C" animation="NONE" />
+</lensmind-filter>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gcam-config version="8.5">
+    <meta>
+        <id>natural_leica</id>
+        <name>Natural Leica</name>
+        <icon>📷</icon>
+        <author>Anamol Studio</author>
+        <deviceProfile>Main 50MP Natural</deviceProfile>
+        <description>Balanced true-to-life tone curve, natural skin warmth, and gentle highlight rolloff.</description>
+    </meta>
+    <hdrplus>
+        <hdrPlusStrength>0.75</hdrPlusStrength>
+        <toneMappingGamma>1.00</toneMappingGamma>
+        <exposureCompensation>0.00</exposureCompensation>
+        <shadows>0.08</shadows>
+        <highlights>-0.12</highlights>
+        <blackLevel>0.00</blackLevel>
+        <nightSightStrength>0.35</nightSightStrength>
+    </hdrplus>
+    <color>
+        <contrast>1.04</contrast>
+        <saturation>1.00</saturation>
+        <vibrance>0.06</vibrance>
+        <skinToneWarmth>0.06</skinToneWarmth>
+    </color>
+    <awb>
+        <awbBias>NATURAL</awbBias>
+        <temperatureOffset>0.02</temperatureOffset>
+        <tintOffset>0.00</tintOffset>
+        <rgbGainR>1.00</rgbGainR>
+        <rgbGainG>1.00</rgbGainG>
+        <rgbGainB>1.00</rgbGainB>
+    </awb>
+    <detail>
+        <sharpness>0.35</sharpness>
+        <lumaNoiseReduction>0.30</lumaNoiseReduction>
+        <chromaNoiseReduction>0.35</chromaNoiseReduction>
+    </detail>
+    <lens>
+        <portraitBlurStrength>0.40</portraitBlurStrength>
+        <vignette>0.08</vignette>
+        <grain>0.00</grain>
+    </lens>
+    <overrides>
+        <mode target="NIGHT">
+            <nightSightStrength>0.95</nightSightStrength>
+            <exposureCompensation>0.30</exposureCompensation>
+        </mode>
+    </overrides>
+</gcam-config>

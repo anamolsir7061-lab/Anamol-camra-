@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>porcelain_beauty</id>
+        <name>Porcelain Glow</name>
+        <icon>✨</icon>
+        <category>BEAUTY</category>
+        <author>LensMind Studio</author>
+        <description>Silky skin smoothing with rosy cheeks and flattering soft studio bloom.</description>
+    </meta>
+    <adjustments>
+        <brightness>0.10</brightness>
+        <contrast>0.96</contrast>
+        <saturation>1.06</saturation>
+        <hue>2.0</hue>
+        <temperature>0.14</temperature>
+        <greenery>0.0</greenery>
+        <blur>0.18</blur>
+        <grain>0.0</grain>
+        <vignette>0.14</vignette>
+        <skinSmooth>0.75</skinSmooth>
+        <highlights>0.10</highlights>
+        <shadows>0.24</shadows>
+        <glitch>0.0</glitch>
+        <blendMode>SOFT_LIGHT</blendMode>
+        <lutPreset>NONE</lutPreset>
+    </adjustments>
+    <ar-overlay type="HEART_BLUSH" anchor="CHEEKS" scale="1.0" offsetY="0.02" tint="#FB7185" animation="SPARKLE" />
+</lensmind-filter>

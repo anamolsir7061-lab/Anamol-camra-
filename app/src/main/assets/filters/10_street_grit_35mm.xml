@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>street_grit_35mm</id>
+        <name>Street Grit 35</name>
+        <icon>📷</icon>
+        <category>COLOR_GRADE</category>
+        <author>LensMind Studio</author>
+        <description>Documentary matte shadows, muted blues, and tactile silver-grain texture.</description>
+    </meta>
+    <adjustments>
+        <brightness>-0.06</brightness>
+        <contrast>1.32</contrast>
+        <saturation>0.74</saturation>
+        <hue>-6.0</hue>
+        <temperature>-0.14</temperature>
+        <greenery>-0.10</greenery>
+        <blur>0.0</blur>
+        <grain>0.48</grain>
+        <vignette>0.46</vignette>
+        <skinSmooth>0.0</skinSmooth>
+        <highlights>-0.24</highlights>
+        <shadows>0.16</shadows>
+        <glitch>0.0</glitch>
+        <blendMode>MULTIPLY</blendMode>
+        <lutPreset>TEAL_ORANGE</lutPreset>
+    </adjustments>
+    <ar-overlay type="NONE" anchor="FULL_FACE" scale="1.0" offsetY="0.0" tint="#94A3B8" animation="NONE" />
+</lensmind-filter>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gcam-config version="8.5">
+    <meta>
+        <id>night_sight_boost</id>
+        <name>Night Boost</name>
+        <icon>🌙</icon>
+        <author>Anamol Studio</author>
+        <deviceProfile>Astro &amp; Low-Light</deviceProfile>
+        <description>Aggressive multi-frame shadow recovery, strong chroma denoise, and neutral tungsten AWB.</description>
+    </meta>
+    <hdrplus>
+        <hdrPlusStrength>1.35</hdrPlusStrength>
+        <toneMappingGamma>0.86</toneMappingGamma>
+        <exposureCompensation>0.65</exposureCompensation>
+        <shadows>0.55</shadows>
+        <highlights>-0.30</highlights>
+        <blackLevel>-0.05</blackLevel>
+        <nightSightStrength>1.35</nightSightStrength>
+    </hdrplus>
+    <color>
+        <contrast>1.08</contrast>
+        <saturation>1.12</saturation>
+        <vibrance>0.22</vibrance>
+        <skinToneWarmth>0.05</skinToneWarmth>
+    </color>
+    <awb>
+        <awbBias>AUTO</awbBias>
+        <temperatureOffset>-0.06</temperatureOffset>
+        <tintOffset>0.02</tintOffset>
+        <rgbGainR>0.98</rgbGainR>
+        <rgbGainG>1.00</rgbGainG>
+        <rgbGainB>1.05</rgbGainB>
+    </awb>
+    <detail>
+        <sharpness>0.42</sharpness>
+        <lumaNoiseReduction>0.82</lumaNoiseReduction>
+        <chromaNoiseReduction>0.88</chromaNoiseReduction>
+    </detail>
+    <lens>
+        <portraitBlurStrength>0.25</portraitBlurStrength>
+        <vignette>0.04</vignette>
+        <grain>0.00</grain>
+    </lens>
+</gcam-config>

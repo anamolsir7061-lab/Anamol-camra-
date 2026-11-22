@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gcam-config version="8.5">
+    <meta>
+        <id>soft_portrait_pro</id>
+        <name>Soft Portrait</name>
+        <icon>✨</icon>
+        <author>Anamol Studio</author>
+        <deviceProfile>85mm Portrait</deviceProfile>
+        <description>Flattering golden skin warmth, gentle luma smoothing, and creamy optical bokeh.</description>
+    </meta>
+    <hdrplus>
+        <hdrPlusStrength>0.70</hdrPlusStrength>
+        <toneMappingGamma>0.96</toneMappingGamma>
+        <exposureCompensation>0.15</exposureCompensation>
+        <shadows>0.22</shadows>
+        <highlights>-0.18</highlights>
+        <blackLevel>0.01</blackLevel>
+        <nightSightStrength>0.30</nightSightStrength>
+    </hdrplus>
+    <color>
+        <contrast>0.98</contrast>
+        <saturation>1.04</saturation>
+        <vibrance>0.14</vibrance>
+        <skinToneWarmth>0.24</skinToneWarmth>
+    </color>
+    <awb>
+        <awbBias>WARM_TUNGSTEN</awbBias>
+        <temperatureOffset>0.12</temperatureOffset>
+        <tintOffset>0.04</tintOffset>
+        <rgbGainR>1.05</rgbGainR>
+        <rgbGainG>1.00</rgbGainG>
+        <rgbGainB>0.95</rgbGainB>
+    </awb>
+    <detail>
+        <sharpness>0.20</sharpness>
+        <lumaNoiseReduction>0.65</lumaNoiseReduction>
+        <chromaNoiseReduction>0.55</chromaNoiseReduction>
+    </detail>
+    <lens>
+        <portraitBlurStrength>0.82</portraitBlurStrength>
+        <vignette>0.16</vignette>
+        <grain>0.00</grain>
+    </lens>
+</gcam-config>

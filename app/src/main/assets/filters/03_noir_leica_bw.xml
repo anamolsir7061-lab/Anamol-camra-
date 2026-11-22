@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>noir_leica_bw</id>
+        <name>Noir 400 B&amp;W</name>
+        <icon>🖤</icon>
+        <category>BW</category>
+        <author>LensMind Studio</author>
+        <description>Crisp silver-halide monochrome with deep blacks and street-style contrast.</description>
+    </meta>
+    <adjustments>
+        <brightness>-0.02</brightness>
+        <contrast>1.42</contrast>
+        <saturation>0.0</saturation>
+        <hue>0.0</hue>
+        <temperature>0.0</temperature>
+        <greenery>0.0</greenery>
+        <blur>0.0</blur>
+        <grain>0.35</grain>
+        <vignette>0.48</vignette>
+        <skinSmooth>0.0</skinSmooth>
+        <highlights>0.12</highlights>
+        <shadows>-0.16</shadows>
+        <glitch>0.0</glitch>
+        <blendMode>NORMAL</blendMode>
+        <lutPreset>NOIR_SILVER</lutPreset>
+    </adjustments>
+    <ar-overlay type="NONE" anchor="FULL_FACE" scale="1.0" offsetY="0.0" tint="#FFFFFF" animation="NONE" />
+</lensmind-filter>

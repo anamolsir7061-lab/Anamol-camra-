@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>vhs_glitch_99</id>
+        <name>VHS Glitch '99</name>
+        <icon>📼</icon>
+        <category>GLITCH</category>
+        <author>LensMind Studio</author>
+        <description>Retro chromatic aberration, CRT scanlines, and gritty magnetic tape noise.</description>
+    </meta>
+    <adjustments>
+        <brightness>0.0</brightness>
+        <contrast>1.28</contrast>
+        <saturation>1.18</saturation>
+        <hue>-8.0</hue>
+        <temperature>-0.10</temperature>
+        <greenery>0.0</greenery>
+        <blur>0.04</blur>
+        <grain>0.55</grain>
+        <vignette>0.44</vignette>
+        <skinSmooth>0.0</skinSmooth>
+        <highlights>0.08</highlights>
+        <shadows>0.12</shadows>
+        <glitch>0.72</glitch>
+        <blendMode>SCREEN</blendMode>
+        <lutPreset>CYBER_MAGENTA</lutPreset>
+    </adjustments>
+    <ar-overlay type="CYBER_HUD" anchor="FULL_FACE" scale="1.0" offsetY="0.0" tint="#22D3EE" animation="PULSE" />
+</lensmind-filter>

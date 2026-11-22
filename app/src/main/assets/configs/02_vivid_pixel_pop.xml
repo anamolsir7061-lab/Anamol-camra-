@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gcam-config version="8.5">
+    <meta>
+        <id>vivid_pixel_pop</id>
+        <name>Vivid Pixel</name>
+        <icon>🌈</icon>
+        <author>Anamol Studio</author>
+        <deviceProfile>HDR+ Punchy</deviceProfile>
+        <description>Rich Pixel-style microcontrast, punchy skies, and crisp vibrance without clipping.</description>
+    </meta>
+    <hdrplus>
+        <hdrPlusStrength>1.10</hdrPlusStrength>
+        <toneMappingGamma>0.95</toneMappingGamma>
+        <exposureCompensation>0.10</exposureCompensation>
+        <shadows>0.18</shadows>
+        <highlights>-0.22</highlights>
+        <blackLevel>-0.03</blackLevel>
+        <nightSightStrength>0.45</nightSightStrength>
+    </hdrplus>
+    <color>
+        <contrast>1.14</contrast>
+        <saturation>1.22</saturation>
+        <vibrance>0.28</vibrance>
+        <skinToneWarmth>0.04</skinToneWarmth>
+    </color>
+    <awb>
+        <awbBias>DAYLIGHT</awbBias>
+        <temperatureOffset>0.05</temperatureOffset>
+        <tintOffset>0.00</tintOffset>
+        <rgbGainR>1.03</rgbGainR>
+        <rgbGainG>1.02</rgbGainG>
+        <rgbGainB>1.04</rgbGainB>
+    </awb>
+    <detail>
+        <sharpness>0.55</sharpness>
+        <lumaNoiseReduction>0.32</lumaNoiseReduction>
+        <chromaNoiseReduction>0.40</chromaNoiseReduction>
+    </detail>
+    <lens>
+        <portraitBlurStrength>0.45</portraitBlurStrength>
+        <vignette>0.10</vignette>
+        <grain>0.00</grain>
+    </lens>
+</gcam-config>

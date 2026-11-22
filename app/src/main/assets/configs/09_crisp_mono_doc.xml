@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gcam-config version="8.5">
+    <meta>
+        <id>crisp_mono_doc</id>
+        <name>Mono Acutance</name>
+        <icon>🖤</icon>
+        <author>Anamol Studio</author>
+        <deviceProfile>Leica M Monochrome</deviceProfile>
+        <description>High-acutance monochrome sensor look with deep blacks, crisp edge detail, and fine grain.</description>
+    </meta>
+    <hdrplus>
+        <hdrPlusStrength>0.90</hdrPlusStrength>
+        <toneMappingGamma>1.08</toneMappingGamma>
+        <exposureCompensation>0.00</exposureCompensation>
+        <shadows>-0.18</shadows>
+        <highlights>0.12</highlights>
+        <blackLevel>-0.06</blackLevel>
+        <nightSightStrength>0.40</nightSightStrength>
+    </hdrplus>
+    <color>
+        <contrast>1.32</contrast>
+        <saturation>0.00</saturation>
+        <vibrance>0.00</vibrance>
+        <skinToneWarmth>0.00</skinToneWarmth>
+    </color>
+    <awb>
+        <awbBias>NEUTRAL</awbBias>
+        <temperatureOffset>0.00</temperatureOffset>
+        <tintOffset>0.00</tintOffset>
+        <rgbGainR>1.00</rgbGainR>
+        <rgbGainG>1.00</rgbGainG>
+        <rgbGainB>1.00</rgbGainB>
+    </awb>
+    <detail>
+        <sharpness>0.95</sharpness>
+        <lumaNoiseReduction>0.15</lumaNoiseReduction>
+        <chromaNoiseReduction>0.90</chromaNoiseReduction>
+    </detail>
+    <lens>
+        <portraitBlurStrength>0.30</portraitBlurStrength>
+        <vignette>0.32</vignette>
+        <grain>0.22</grain>
+    </lens>
+</gcam-config>

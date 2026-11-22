@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensmind-filter version="1.0">
+    <meta>
+        <id>cyber_visor_ar</id>
+        <name>Cyber Visor</name>
+        <icon>🕶️</icon>
+        <category>AR_LENS</category>
+        <author>LensMind Studio</author>
+        <description>Futuristic glowing eye visor tracked to face landmarks with cool neon grade.</description>
+    </meta>
+    <adjustments>
+        <brightness>-0.02</brightness>
+        <contrast>1.25</contrast>
+        <saturation>1.28</saturation>
+        <hue>-12.0</hue>
+        <temperature>-0.28</temperature>
+        <greenery>0.0</greenery>
+        <blur>0.0</blur>
+        <grain>0.10</grain>
+        <vignette>0.36</vignette>
+        <skinSmooth>0.25</skinSmooth>
+        <highlights>0.10</highlights>
+        <shadows>0.10</shadows>
+        <glitch>0.12</glitch>
+        <blendMode>SCREEN</blendMode>
+        <lutPreset>CYBER_MAGENTA</lutPreset>
+    </adjustments>
+    <ar-overlay type="NEON_VISOR" anchor="EYES" scale="1.10" offsetY="0.0" tint="#00E5FF" animation="PULSE" />
+</lensmind-filter>
